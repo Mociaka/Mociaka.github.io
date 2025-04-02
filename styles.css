@@ -1,0 +1,145 @@
+:root {
+            --bg-color: #f4f4f9;
+            --text-color: #333;
+            --accent-color: #007bff;
+            --card-bg: white;
+            --shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+        }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 800px;
+            margin: auto;
+            padding: 15px;
+        }
+        
+        button {
+            background: var(--accent-color);
+            border: none;
+            padding: 10px 15px;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+        
+        button:hover {
+            background: #0056b3;
+            transform: scale(1.05);
+        }
+        
+        main {
+            max-width: 800px;
+            margin: auto;
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+        }
+        
+        h1, h2, h3 {
+            color: var(--accent-color);
+            margin-bottom: 10px;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        ul li {
+            margin: 8px 0;
+            background: var(--bg-color);
+            padding: 12px;
+            border-radius: 6px;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s ease;
+        }
+        
+        ul li:hover {
+            transform: scale(1.03);
+        }
+        
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        video {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            margin-top: 15px;
+        }
+		p {
+			text-align: left;
+			margin: 10px 0;
+			line-height: 1.6;
+		}
+/* Default light theme */
+:root {
+    --bg-color: #f4f4f9;
+    --text-color: #333;
+    --accent-color: #007bff;
+    --card-bg: white;
+    --shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+    --bg-color: #333;
+    --text-color: #f4f4f9;
+    --accent-color: #007bff;
+    --card-bg: #444;
+    --shadow: rgba(0, 0, 0, 0.5) 0px 4px 6px;
+}
+
+/* Стиль для кнопок перемикання мови */
+.lang-toggle {
+    background: none;
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+    margin: 0 5px;
+	
+}
+
+.lang-toggle:hover {
+    background: var(--accent-color);
+    color: white;
+}
+.lang-toggle-right{
+	justify-content: flex-end;  /* Вирівнюємо все вправо */
+}
+
+/* Розташування кнопок праворуч */
+header {
+    display: flex;
+    
+    gap: 10px;
+    padding: 15px;
+}
