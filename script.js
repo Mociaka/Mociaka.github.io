@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Зміна теми
     themeToggle.addEventListener("click", () => {
         const theme = document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+		console.log(theme);
         document.body.setAttribute('data-theme', theme);
         localStorage.setItem('theme', theme);  // Збереження вибору теми
     });
