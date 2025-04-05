@@ -135,6 +135,10 @@
 .lang-toggle-right{
 	justify-content: flex-end;  /* Вирівнюємо все вправо */
 }
+.lang-toggle.active {
+    background-color: var(--accent-color);
+    color: white;
+}
 
 /* Розташування кнопок праворуч */
 header {

@@ -10,15 +10,15 @@
 </head>
 <body>
     <header>
-    <button id="theme-toggle">🌙</button>
-	<div id="lang-toggle-right">
-		<button id="lang-uk" class="lang-toggle">UK</button>
-		<button id="lang-en" class="lang-toggle">EN</button>
-	<div/>
-</header>
+		<button id="theme-toggle">🌙</button>
+		<div id="lang-toggle-right">
+			<button id="lang-uk" class="lang-toggle">UK</button>
+			<button id="lang-en" class="lang-toggle">EN</button>
+		<div/>
+	</header>
 
     <main>
-        <h1 data-lang="name">Денис</h1>
+        <h1 data-lang="name">Моціяка Денис</h1>
         <p data-lang="position">Бекенд-розробник</p>
         <p data-lang="description">Досвід у Spring Boot, PostgreSQL, Docker, OAuth 2.0, Keycloak, Eureka, API Gateway</p>
         
@@ -32,25 +32,37 @@
             <li>CI/CD, GitHub Actions</li>
         </ul>
         
-        <h2 data-lang="projects-title">Проєкти</h2>
+         <h2 data-lang="projects-title">Проєкти</h2>
         <ul>
-            <li>SSD – Платформа для пошуку команди (Spring Boot + React)</li>
-<p>SSD (Smart Squad Development) – це веб-платформа, яка дозволяє розробникам знаходити та об'єднуватися в команди для спільної роботи над проектами. Платформа побудована з використанням Spring Boot на бекенді для забезпечення швидкості і надійності серверної частини, а також React для динамічної і зручної взаємодії на фронтенді. SSD підтримує реєстрацію користувачів, можливість створювати або приєднуватися до проектів, а також взаємодіяти з іншими розробниками. Всі процеси контролюються через OAuth 2.0 для безпечної аутентифікації.</p>
+            <a href="https://github.com/DUIKTSSD/ssd" target="_blank" ><li data-lang="projects-SSD" >SSD – Платформа для пошуку команди (Spring Boot + React)</li> </a>
+				<p data-lang="projects-SSD-text" >SSD (Smart Squad Development) – це веб-платформа, яка дозволяє розробникам знаходити та об'єднуватися в команди для спільної роботи над проектами. Платформа побудована з використанням Spring Boot на бекенді для забезпечення швидкості і надійності серверної частини, а також React для динамічної і зручної взаємодії на фронтенді. SSD підтримує реєстрацію користувачів, можливість створювати або приєднуватися до проектів, а також взаємодіяти з іншими розробниками.</p>
+				<h3 data-lang="video-title">Відео про SSD</h3>
+				<video controls>
+					<source src="ssd.mp4" type="video/mp4">
+					Ваш браузер не підтримує відтворення відео.
+				</video>
 
-            <li>Система мемів з кешуванням та авторизацією через Keycloak</li>
-            <li>REST API для Walmart з експортуванням в Excel</li>
+			<a href="https://github.com/Mociaka/SSD_Microservices" target="_blank"> <li data-lang="projects-SSD-Microservices" >SSD Microservices (pet-проєкт)</li></a>
+            <p data-lang="projects-SSD-Microservices-text1">Розробка мікросервісної архітектури на основі сучасних технологій. Проєкт включає:</p>
+			<ul>
+				<p data-lang="projects-SSD-Microservices-keycloak"><strong>Keycloak</strong> — для автентифікації та авторизації користувачів за допомогою OAuth 2.0 і JWT</p>
+				<p data-lang="projects-SSD-Microservices-gateway"><strong>API Gateway</strong> — централізована точка доступу з маршрутизацією запитів</p>
+				<p data-lang="projects-SSD-Microservices-discovery"><strong>Discovery Service</strong> — Eureka для динамічної реєстрації сервісів</p>
+				<p data-lang="projects-SSD-Microservices-file"><strong>File Service</strong> — власна реалізація зберігання зображень, аналог Amazon S3</p>
+				<p data-lang="projects-SSD-Microservices-notification"><strong>Notification Service</strong> — надсилання email-сповіщень користувачам</p>
+				<p data-lang="projects-SSD-Microservices-kafka"><strong>Kafka та Redis</strong> — для обробки подій і кешування</p>
+			</ul>
+			<p data-lang="projects-SSD-Microservices-text2">Проєкт розгортається у Docker-оточенні. Основна мета — створення масштабованої та безпечної екосистеми сервісів для керування користувачами, контентом та сповіщеннями.</p>
+
+
         </ul>
         
-        <h3 data-lang="video-title">Відео про SSD</h3>
-        <video controls>
-            <source src="ssd.mp4" type="video/mp4">
-            Ваш браузер не підтримує відтворення відео.
-        </video>
+        
         
         <h2 data-lang="contacts-title">Контакти</h2>
-        <p>Email: your.email@example.com</p>
-        <p>GitHub: <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p>Email: denismociaka759@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/Mociaka" target="_blank">github.com/Mociaka</a></p>
+        <!--<p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>-->
     </main>
 	<script src="script.js"></script>
 </body>
